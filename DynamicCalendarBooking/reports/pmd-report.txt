@@ -1,0 +1,1501 @@
+src/main/java/com/wavelabs/dao/BookingsDao.java:18:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:19:	To avoid mistakes add a comment at the beginning of the session field if you want a default access modifier
+src/main/java/com/wavelabs/dao/BookingsDao.java:19:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/BookingsDao.java:19:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:21:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'receiver_id' is not final.
+src/main/java/com/wavelabs/dao/BookingsDao.java:21:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'timeslot_id' is not final.
+src/main/java/com/wavelabs/dao/BookingsDao.java:21:	Parameter 'receiver_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:21:	Parameter 'timeslot_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:22:	Found 'DD'-anomaly for variable 'booking' (lines '22'-'28').
+src/main/java/com/wavelabs/dao/BookingsDao.java:24:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:26:	The String literal "timeslot.id" appears 4 times in this file; the first occurrence is on line 26
+src/main/java/com/wavelabs/dao/BookingsDao.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:27:	The String literal "status" appears 7 times in this file; the first occurrence is on line 27
+src/main/java/com/wavelabs/dao/BookingsDao.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:29:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/BookingsDao.java:30:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/BookingsDao.java:37:	Parameter 'timeslot' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:37:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:38:	Found 'DD'-anomaly for variable 'bookingslist' (lines '38'-'43').
+src/main/java/com/wavelabs/dao/BookingsDao.java:40:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:44:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/BookingsDao.java:45:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/BookingsDao.java:50:	Found 'UR'-anomaly for variable 'bookings' (lines '50'-'56').
+src/main/java/com/wavelabs/dao/BookingsDao.java:50:	Found 'UR'-anomaly for variable 'timeslot' (lines '50'-'54').
+src/main/java/com/wavelabs/dao/BookingsDao.java:50:	Parameter 'timeslotlist' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:50:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:51:	Local variable 'msgData' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:52:	Found 'DU'-anomaly for variable 'commlist' (lines '52'-'71').
+src/main/java/com/wavelabs/dao/BookingsDao.java:52:	Local variable 'commlist' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:53:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:54:	Local variable 'bookinglist' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:55:	Local variable 'bookings' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:59:	Comment is too large: Line too long
+src/main/java/com/wavelabs/dao/BookingsDao.java:61:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/dao/BookingsDao.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:62:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:63:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/dao/BookingsDao.java:65:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/BookingsDao.java:72:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'receiver_id' is not final.
+src/main/java/com/wavelabs/dao/BookingsDao.java:72:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'timeslot_id' is not final.
+src/main/java/com/wavelabs/dao/BookingsDao.java:72:	Parameter 'receiver_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:72:	Parameter 'timeslot_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:72:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:73:	Found 'DD'-anomaly for variable 'booking' (lines '73'-'79').
+src/main/java/com/wavelabs/dao/BookingsDao.java:75:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:78:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:80:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/BookingsDao.java:81:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/BookingsDao.java:87:	Parameter 'timeSlots' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:87:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:88:	Found 'DD'-anomaly for variable 'booking' (lines '88'-'93').
+src/main/java/com/wavelabs/dao/BookingsDao.java:90:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:91:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:93:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:94:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/BookingsDao.java:95:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/BookingsDao.java:100:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:100:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:101:	System.out.println is used
+src/main/java/com/wavelabs/dao/BookingsDao.java:102:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:103:	The String literal "timeslot" appears 4 times in this file; the first occurrence is on line 103
+src/main/java/com/wavelabs/dao/BookingsDao.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:105:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:106:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:108:	Local variable 'bookings' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:112:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:112:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/BookingsDao.java:113:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:114:	System.out.println is used
+src/main/java/com/wavelabs/dao/BookingsDao.java:115:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:121:	Local variable 'bookings' could be declared final
+src/main/java/com/wavelabs/dao/BookingsDao.java:122:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/BookingsDao.java:123:	System.out.println is used
+src/main/java/com/wavelabs/dao/CalendarChronJob.java:3:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/dao/CalendarChronJob.java:3:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationDao.java:22:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationDao.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/CommunicationDao.java:23:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/dao/CommunicationDao.java:23:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/dao/CommunicationDao.java:23:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/CommunicationDao.java:23:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationDao.java:25:	Parameter 'phonenumber' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:25:	Parameter 'text' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:25:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationDao.java:26:	Local variable 'ACCOUNT_SID' could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'ACCOUNT_SID' is not final.
+src/main/java/com/wavelabs/dao/CommunicationDao.java:26:	Variables should start with a lowercase character, 'ACCOUNT_SID' starts with uppercase character.
+src/main/java/com/wavelabs/dao/CommunicationDao.java:27:	Local variable 'AUTH_TOKEN' could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:27:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'AUTH_TOKEN' is not final.
+src/main/java/com/wavelabs/dao/CommunicationDao.java:27:	Variables should start with a lowercase character, 'AUTH_TOKEN' starts with uppercase character.
+src/main/java/com/wavelabs/dao/CommunicationDao.java:35:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/CommunicationDao.java:54:	Method names should not start with capital letters
+src/main/java/com/wavelabs/dao/CommunicationDao.java:54:	Parameter 'recipientEmail' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:54:	Parameter 'title' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:54:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/com/wavelabs/dao/CommunicationDao.java:55:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:59:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/CommunicationDao.java:81:	Method names should not start with capital letters
+src/main/java/com/wavelabs/dao/CommunicationDao.java:81:	Parameter 'ccEmail' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:81:	Parameter 'recipientEmail' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:81:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/com/wavelabs/dao/CommunicationDao.java:82:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:82:	Parameter 'title' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:84:	Avoid using final local variables, turn them into fields
+src/main/java/com/wavelabs/dao/CommunicationDao.java:87:	Local variable 'props' could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:88:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:89:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:90:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:91:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:92:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:93:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:95:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/CommunicationDao.java:106:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:108:	Found 'DU'-anomaly for variable 'session' (lines '108'-'133').
+src/main/java/com/wavelabs/dao/CommunicationDao.java:108:	Found 'DU'-anomaly for variable 'session' (lines '108'-'133').
+src/main/java/com/wavelabs/dao/CommunicationDao.java:108:	Local variable 'session' could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:109:	protectedMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationDao.java:128:	Avoid variables with short names like t
+src/main/java/com/wavelabs/dao/CommunicationDao.java:128:	Local variable 't' could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:130:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:132:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/CommunicationDao.java:135:	Parameter 'mailid' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:135:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationDao.java:135:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationDao.java:141:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/wavelabs/dao/CommunicationThread.java:7:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/CommunicationThread.java:7:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationThread.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/CommunicationThread.java:8:	To avoid mistakes add a comment at the beginning of the msglist field if you want a default access modifier
+src/main/java/com/wavelabs/dao/CommunicationThread.java:8:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/CommunicationThread.java:8:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationThread.java:10:	Parameter 'commlist' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/CommunicationThread.java:10:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/CommunicationThread.java:16:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/DaoChecking.java:17:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/dao/DaoChecking.java:17:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/DaoChecking.java:19:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/DaoChecking.java:20:	Local variable 'doctor' could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:21:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:23:	System.out.println is used
+src/main/java/com/wavelabs/dao/DaoChecking.java:25:	Local variable 'slotinfo' could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:26:	Local variable 'format' could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:26:	When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/wavelabs/dao/DaoChecking.java:27:	Local variable 'date1' could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:29:	Local variable 'slot' could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:30:	System.out.println is used
+src/main/java/com/wavelabs/dao/DaoChecking.java:32:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:36:	Local variable 'session' could be declared final
+src/main/java/com/wavelabs/dao/DaoChecking.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/DaoChecking.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/DaoChecking.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/DaoChecking.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/DaoChecking.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/MessageChronJob.java:3:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/dao/MessageChronJob.java:3:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:11:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:11:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:12:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:12:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:13:	Local variable 'originalPassword' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:14:	Avoid excessively long variable names like generatedSecuredPasswordHash
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:14:	Local variable 'generatedSecuredPasswordHash' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:15:	System.out.println is used
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:18:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:18:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:20:	Local variable 'iterations' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:21:	Local variable 'chars' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:22:	Local variable 'salt' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:24:	Local variable 'spec' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:25:	Local variable 'skf' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:26:	Local variable 'hash' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:26:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:30:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:30:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:32:	Local variable 'iterations' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:33:	Local variable 'chars' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:34:	Local variable 'salt' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:36:	Local variable 'spec' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:37:	Local variable 'skf' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:38:	Local variable 'hash' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:43:	Avoid variables with short names like sr
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:43:	Local variable 'sr' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:44:	Local variable 'salt' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:49:	Parameter 'array' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:50:	Avoid variables with short names like bi
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:50:	Local variable 'bi' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:51:	Local variable 'hex' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:52:	Local variable 'paddingLength' could be declared final
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:52:	Useless parentheses.
+src/main/java/com/wavelabs/dao/PasswordEncryption.java:54:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/PasswordValidation.java:9:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/dao/PasswordValidation.java:9:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/PasswordValidation.java:10:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:10:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/PasswordValidation.java:12:	Local variable 'originalPassword' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:13:	Avoid excessively long variable names like generatedSecuredPasswordHash
+src/main/java/com/wavelabs/dao/PasswordValidation.java:13:	Local variable 'generatedSecuredPasswordHash' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:14:	System.out.println is used
+src/main/java/com/wavelabs/dao/PasswordValidation.java:17:	System.out.println is used
+src/main/java/com/wavelabs/dao/PasswordValidation.java:20:	System.out.println is used
+src/main/java/com/wavelabs/dao/PasswordValidation.java:23:	Parameter 'originalPassword' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:23:	Parameter 'storedPassword' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:23:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/PasswordValidation.java:25:	Local variable 'parts' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:26:	Local variable 'iterations' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:26:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/PasswordValidation.java:27:	Local variable 'salt' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:27:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/PasswordValidation.java:28:	Local variable 'hash' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/PasswordValidation.java:30:	Local variable 'spec' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:31:	Local variable 'skf' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:32:	Local variable 'testHash' could be declared final
+src/main/java/com/wavelabs/dao/PasswordValidation.java:32:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/PasswordValidation.java:41:	Parameter 'hex' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:19:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/dao/ProviderDao.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/ProviderDao.java:20:	To avoid mistakes add a comment at the beginning of the session field if you want a default access modifier
+src/main/java/com/wavelabs/dao/ProviderDao.java:20:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/ProviderDao.java:20:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/ProviderDao.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/ProviderDao.java:21:	To avoid mistakes add a comment at the beginning of the criteria field if you want a default access modifier
+src/main/java/com/wavelabs/dao/ProviderDao.java:21:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/ProviderDao.java:21:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/ProviderDao.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/ProviderDao.java:22:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/dao/ProviderDao.java:22:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/dao/ProviderDao.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/ProviderDao.java:22:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/ProviderDao.java:24:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/ProviderDao.java:36:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'phone_number' is not final.
+src/main/java/com/wavelabs/dao/ProviderDao.java:36:	Parameter 'address' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:36:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:36:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:36:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:36:	Parameter 'phone_number' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:36:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/com/wavelabs/dao/ProviderDao.java:37:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:44:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/ProviderDao.java:54:	Avoid variables with short names like id
+src/main/java/com/wavelabs/dao/ProviderDao.java:54:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:65:	Local variable 'providerList' could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:71:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ProviderDao.java:71:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/ProviderDao.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/ReceiverDao.java:18:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/dao/ReceiverDao.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/ReceiverDao.java:19:	To avoid mistakes add a comment at the beginning of the session field if you want a default access modifier
+src/main/java/com/wavelabs/dao/ReceiverDao.java:19:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/ReceiverDao.java:19:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/ReceiverDao.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/ReceiverDao.java:20:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/dao/ReceiverDao.java:20:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/dao/ReceiverDao.java:20:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/ReceiverDao.java:20:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/ReceiverDao.java:22:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/ReceiverDao.java:32:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'phone_number' is not final.
+src/main/java/com/wavelabs/dao/ReceiverDao.java:32:	Parameter 'address' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:32:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:32:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:32:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:32:	Parameter 'phone_number' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:32:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/com/wavelabs/dao/ReceiverDao.java:33:	Local variable 'consultant' could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/ReceiverDao.java:50:	Local variable 'list' could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/ReceiverDao.java:62:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:64:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/ReceiverDao.java:75:	Avoid variables with short names like id
+src/main/java/com/wavelabs/dao/ReceiverDao.java:75:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/ReceiverDao.java:76:	Local variable 'consult' could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:13:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:13:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:14:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:14:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:14:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:16:	Local variable 'pwd' could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:19:	Local variable 'session' could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:20:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:21:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:22:	System.out.println is used
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:23:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:24:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:25:	System.out.println is used
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:30:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:30:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:31:	Found 'DD'-anomaly for variable 'user' (lines '31'-'35').
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:33:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:36:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:37:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:42:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:42:	Parameter 'pwd' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:42:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:44:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:45:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:51:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:51:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:51:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:53:	Local variable 'user' could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:55:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:61:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:61:	Parameter 'pwd' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:61:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:62:	Found 'DD'-anomaly for variable 'user' (lines '62'-'67').
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:64:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:64:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:65:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:67:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:69:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:71:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:73:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:78:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:78:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:84:	Local variable 'encrypt' could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:85:	Local variable 'result' could be declared final
+src/main/java/com/wavelabs/dao/SignupAndLogin.java:86:	System.out.println is used
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:18:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:18:	headerCommentRequirement Required
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:19:	To avoid mistakes add a comment at the beginning of the session field if you want a default access modifier
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:19:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:19:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:20:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:20:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:22:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_time' is not final.
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'no_of_booked' is not final.
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'no_of_time_slots' is not final.
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_time' is not final.
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Parameter 'date' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Parameter 'from_time' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Parameter 'no_of_booked' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Parameter 'no_of_time_slots' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:34:	Parameter 'to_time' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:35:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:36:	Local variable 'slotinfo' could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:42:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:52:	Parameter 'slotinfo' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:57:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:59:	There is log block not surrounded by if
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:73:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:74:	Local variable 'slotList' could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:74:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:76:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:77:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:78:	Local variable 'slotlist' could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:80:	There is log block not surrounded by if
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:85:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:95:	Parameter 'date1' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:95:	Parameter 'date2' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:95:	Parameter 'endTime' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:95:	Parameter 'slotinfo' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:95:	Parameter 'startTime' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:96:	Parameter 'slotDuration' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:97:	Found 'DU'-anomaly for variable 'listOfSlots' (lines '97'-'120').
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:97:	Local variable 'listOfSlots' could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:98:	System.out.println is used
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:100:	System.out.println is used
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:101:	Found 'DU'-anomaly for variable 'timingslist' (lines '101'-'120').
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:101:	Local variable 'timingslist' could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:102:	Local variable 'datesList' could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:112:	System.out.println is used
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:113:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:115:	There is log block not surrounded by if
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:116:	Local variable 'slotlist' could be declared final
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:117:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/SlotInfoDao.java:117:	Consider simply returning the value vs storing it in local variable 'slotlist'
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:1:	Possible God class (WMC=53, ATFD=123, TCC=0.0)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:38:	This class has too many methods, consider refactoring it.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:40:	To avoid mistakes add a comment at the beginning of the session field if you want a default access modifier
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:40:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:40:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:41:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:41:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:41:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:41:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:43:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:54:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_time' is not final.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:54:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_time' is not final.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:54:	Parameter 'from_time' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:54:	Parameter 'slot' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:54:	Parameter 'to_time' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:56:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:61:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:73:	Parameter 'slotinfo' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:73:	Parameter 'timings' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:75:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:75:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:76:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:93:	Local variable 'timeslotlist' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:93:	The String literal "unchecked" appears 8 times in this file; the first occurrence is on line 93
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:94:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:104:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:105:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:105:	The String literal "status" appears 7 times in this file; the first occurrence is on line 105
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:106:	Local variable 'availableTimeSlots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:107:	Avoid excessively long variable names like availableTimeSlots
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:117:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:119:	Local variable 'bookedTimeSlots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:131:	Parameter 'slotid' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:132:	Local variable 'slot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:133:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:133:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:134:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:136:	Local variable 'timelotList' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:136:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:149:	Parameter 'slotid' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:150:	Local variable 'slot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:151:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:151:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:152:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:152:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:154:	Local variable 'timelotList' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:154:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:165:	Avoid variables with short names like id
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:165:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:170:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:170:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:170:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:171:	Local variable 'msgData' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:172:	Found 'DU'-anomaly for variable 'commlist' (lines '172'-'215').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:172:	Local variable 'commlist' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:173:	Local variable 'timeslotlist' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:176:	Local variable 'receiver' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:176:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:176:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:176:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:176:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:177:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:177:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:177:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:177:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:177:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:178:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:178:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:179:	Local variable 'status' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:179:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:180:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:181:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:184:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:185:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:185:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:185:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:187:	Local variable 'booking' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:187:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:187:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:188:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:191:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:193:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:193:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:193:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:207:	Local variable 'cthread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:208:	Local variable 'thread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:208:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:208:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:211:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:212:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:217:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:217:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:217:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:218:	Local variable 'msgData' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:221:	Local variable 'receiver' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:221:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:221:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:221:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:221:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:222:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:222:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:222:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:222:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:222:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:223:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:223:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:223:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:224:	Local variable 'status' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:224:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:225:	Local variable 'booking' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:225:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:225:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:226:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:229:	Local variable 'bookingslist' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:230:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:230:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:231:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:234:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:236:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:236:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:236:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:236:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:237:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:237:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:237:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:244:	Local variable 'cthread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:245:	Local variable 'thread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:245:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:245:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:247:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:248:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:249:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:254:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:254:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:254:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:255:	Local variable 'listOfIds' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:257:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:257:	Use asList instead of tight loops
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:259:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:260:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:261:	Local variable 'timeslots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:262:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:273:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:273:	Found 'UR'-anomaly for variable 'timeSlot' (lines '273'-'277').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:273:	Parameter 'intids' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:274:	Local variable 'timeslots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:276:	Local variable 'timeSlot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:282:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:283:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:290:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:299:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:299:	Found 'UR'-anomaly for variable 'timeslot' (lines '299'-'307').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:299:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:299:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:300:	Local variable 'msgData' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:301:	Found 'DD'-anomaly for variable 'status' (lines '301'-'321').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:301:	Found 'DD'-anomaly for variable 'status' (lines '301'-'328').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:301:	Found 'DD'-anomaly for variable 'status' (lines '301'-'332').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:302:	Local variable 'timeslots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:303:	Found 'DD'-anomaly for variable 'times' (lines '303'-'311').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:303:	Found 'DU'-anomaly for variable 'times' (lines '303'-'348').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:305:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:309:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:309:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:311:	Prefer StringBuffer over += for concatenating strings
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:313:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:313:	Local variable 'bookings' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:321:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:323:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:323:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:323:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:324:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:324:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:325:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:328:	Found 'DD'-anomaly for variable 'status' (lines '328'-'321').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:328:	Found 'DD'-anomaly for variable 'status' (lines '328'-'328').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:328:	Found 'DD'-anomaly for variable 'status' (lines '328'-'332').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:332:	Found 'DD'-anomaly for variable 'status' (lines '332'-'321').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:332:	Found 'DD'-anomaly for variable 'status' (lines '332'-'328').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:332:	Found 'DD'-anomaly for variable 'status' (lines '332'-'332').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:335:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:338:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:341:	Local variable 'cthread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:342:	Local variable 'thread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:342:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:342:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:344:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:345:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:350:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:350:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:351:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:352:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:352:	The String literal "slot" appears 5 times in this file; the first occurrence is on line 352
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:353:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:354:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:355:	Local variable 'timeslots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:356:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:357:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:361:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:361:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:362:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:363:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:364:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:365:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:366:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:367:	Local variable 'timeslots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:368:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:369:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:373:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:373:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:374:	Local variable 'timeslotList' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:375:	Local variable 'processTimeslots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:375:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:375:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:377:	Local variable 'availableList' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:377:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:377:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:377:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:379:	Local variable 'emptyTimeslots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:379:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:379:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:379:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:385:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:391:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:397:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:400:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:401:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:406:	Found 'UR'-anomaly for variable 'timeSlots' (lines '406'-'408').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:406:	Parameter 'availableList' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:407:	Local variable 'timeSlots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:417:	Found 'UR'-anomaly for variable 'timeSlots' (lines '417'-'419').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:417:	Parameter 'emptyTimeslots' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:418:	Local variable 'timeSlots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:424:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:428:	Found 'UR'-anomaly for variable 'bookings' (lines '428'-'434').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:428:	Found 'UR'-anomaly for variable 'timeSlots' (lines '428'-'431').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:428:	Parameter 'processTimeslots' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:429:	Found 'DU'-anomaly for variable 'msgData' (lines '429'-'459').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:429:	Local variable 'msgData' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:430:	Local variable 'timeSlots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:431:	Found 'DD'-anomaly for variable 'provider' (lines '431'-'431').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:431:	Found 'DU'-anomaly for variable 'provider' (lines '431'-'459').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:431:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:431:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:432:	Local variable 'bookingList' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:433:	Local variable 'bookings' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:434:	Local variable 'receiver' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:435:	Local variable 'status' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:435:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:440:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:440:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:440:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:440:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:441:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:441:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:452:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:454:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:454:	Local variable 'cthread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:455:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:455:	Local variable 'thread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:455:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:455:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:461:	Found 'UR'-anomaly for variable 'timeSlots' (lines '461'-'466').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:461:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:461:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:462:	Local variable 'msgData' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:463:	Local variable 'timeslotList' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:464:	Found 'DD'-anomaly for variable 'message' (lines '464'-'498').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:465:	Local variable 'timeSlots' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:466:	Local variable 'date1' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:466:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:467:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:468:	Local variable 'stringdate' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:468:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:469:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:469:	Local variable 'sdf' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:469:	When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:470:	Found 'DD'-anomaly for variable 'date2' (lines '470'-'472').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:476:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:478:	Local variable 'booking' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:479:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:479:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:480:	Local variable 'receiver' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:480:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:481:	Local variable 'status' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:481:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:482:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:485:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:485:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:485:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:485:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:486:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:486:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:496:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:498:	Found 'DD'-anomaly for variable 'message' (lines '498'-'498').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:501:	Local variable 'cthread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:502:	Local variable 'thread' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:502:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:502:	To be compliant to J2EE, a webapp should not use any thread.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:507:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:507:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:508:	Local variable 'receiver' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:509:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:510:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:510:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:510:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:510:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:511:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:513:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:517:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_time' is not final.
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:517:	Parameter 'date' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:517:	Parameter 'from_time' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:517:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:518:	Found 'DD'-anomaly for variable 'bookings' (lines '518'-'528').
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:520:	Local variable 'criteria' could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:520:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:521:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:522:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:523:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:524:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:525:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:526:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:528:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:529:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:530:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:531:	System.out.println is used
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:533:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:534:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:540:	Parameter 'timeslot' is not assigned and could be declared final
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:541:	Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/com/wavelabs/dao/TimeSlotDao.java:542:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/model/Bookings.java:3:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/model/Bookings.java:3:	headerCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:4:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/Bookings.java:4:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:5:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:6:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:7:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:9:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:13:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/Bookings.java:13:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Bookings.java:13:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:21:	Parameter 'timeslot' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Bookings.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:25:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:29:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Bookings.java:29:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:33:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Bookings.java:37:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Bookings.java:37:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Ids.java:3:	Avoid short class names like Ids
+src/main/java/com/wavelabs/model/Ids.java:3:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/model/Ids.java:3:	headerCommentRequirement Required
+src/main/java/com/wavelabs/model/Ids.java:4:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'receiver_id' is not final.
+src/main/java/com/wavelabs/model/Ids.java:4:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Ids.java:5:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'timeslot_id' is not final.
+src/main/java/com/wavelabs/model/Ids.java:5:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Ids.java:7:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/Ids.java:7:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Ids.java:11:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/Ids.java:11:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'receiver_id' is not final.
+src/main/java/com/wavelabs/model/Ids.java:11:	Parameter 'receiver_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Ids.java:11:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Ids.java:15:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/Ids.java:15:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Ids.java:19:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/Ids.java:19:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'timeslot_id' is not final.
+src/main/java/com/wavelabs/model/Ids.java:19:	Parameter 'timeslot_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Ids.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Message.java:3:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/model/Message.java:3:	headerCommentRequirement Required
+src/main/java/com/wavelabs/model/Message.java:4:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Message.java:5:	It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/com/wavelabs/model/Message.java:5:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Message.java:7:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Message.java:11:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Message.java:11:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Message.java:15:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Message.java:19:	Parameter 'message' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Message.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:3:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/model/Password.java:3:	headerCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:4:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/Password.java:4:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:5:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:6:	It is somewhat confusing to have a field name matching the declaring class name
+src/main/java/com/wavelabs/model/Password.java:6:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:8:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:12:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/Password.java:12:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Password.java:12:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:16:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:20:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Password.java:20:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:24:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Password.java:28:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Password.java:28:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:4:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/model/Provider.java:4:	headerCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:5:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/Provider.java:5:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:6:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:7:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'phone_number' is not final.
+src/main/java/com/wavelabs/model/Provider.java:7:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:8:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:9:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:10:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:12:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:16:	Parameter 'address' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Provider.java:16:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:20:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:24:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Provider.java:24:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:28:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:32:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/Provider.java:32:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Provider.java:32:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:36:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:40:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Provider.java:40:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:46:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/Provider.java:46:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:50:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/Provider.java:50:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'phone_number' is not final.
+src/main/java/com/wavelabs/model/Provider.java:50:	Parameter 'phone_number' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Provider.java:50:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:54:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Provider.java:58:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Provider.java:58:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:3:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/model/Receiver.java:3:	headerCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:4:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/Receiver.java:4:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:5:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:6:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:7:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'phone_number' is not final.
+src/main/java/com/wavelabs/model/Receiver.java:7:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:8:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:9:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:11:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:15:	Parameter 'password' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Receiver.java:15:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:23:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/Receiver.java:23:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Receiver.java:23:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:27:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:31:	Parameter 'name' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Receiver.java:31:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:35:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:39:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Receiver.java:39:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:43:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/Receiver.java:43:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:47:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/Receiver.java:47:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'phone_number' is not final.
+src/main/java/com/wavelabs/model/Receiver.java:47:	Parameter 'phone_number' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Receiver.java:47:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:51:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Receiver.java:55:	Parameter 'address' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/Receiver.java:55:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:6:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/model/SlotInfo.java:6:	headerCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:7:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/SlotInfo.java:7:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:8:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:9:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_time' is not final.
+src/main/java/com/wavelabs/model/SlotInfo.java:9:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:10:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_time' is not final.
+src/main/java/com/wavelabs/model/SlotInfo.java:10:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:11:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:13:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:17:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/SlotInfo.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:25:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/SlotInfo.java:25:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/SlotInfo.java:25:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:29:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:33:	Parameter 'date' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/SlotInfo.java:33:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:37:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/SlotInfo.java:37:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:41:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/SlotInfo.java:41:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_time' is not final.
+src/main/java/com/wavelabs/model/SlotInfo.java:41:	Parameter 'from_time' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/SlotInfo.java:41:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:45:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/SlotInfo.java:45:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/SlotInfo.java:49:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/SlotInfo.java:49:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_time' is not final.
+src/main/java/com/wavelabs/model/SlotInfo.java:49:	Parameter 'to_time' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/SlotInfo.java:49:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/Status.java:3:	enumCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:5:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/model/TimeSlots.java:5:	headerCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:6:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/TimeSlots.java:6:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:7:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_time' is not final.
+src/main/java/com/wavelabs/model/TimeSlots.java:7:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:8:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:9:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:10:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:13:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:21:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/TimeSlots.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:25:	Parameter 'slot' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/TimeSlots.java:25:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:29:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:33:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/TimeSlots.java:33:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:37:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:41:	Avoid variables with short names like id
+src/main/java/com/wavelabs/model/TimeSlots.java:41:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/TimeSlots.java:41:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:45:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/TimeSlots.java:45:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/model/TimeSlots.java:49:	Method names should not contain underscores
+src/main/java/com/wavelabs/model/TimeSlots.java:49:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'from_time' is not final.
+src/main/java/com/wavelabs/model/TimeSlots.java:49:	Parameter 'from_time' is not assigned and could be declared final
+src/main/java/com/wavelabs/model/TimeSlots.java:49:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:31:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:31:	headerCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:33:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:33:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:33:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:33:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:40:	The String literal "There is problem in server" appears 6 times in this file; the first occurrence is on line 40
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:42:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:43:	Parameter 'receiverid' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:44:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:45:	System.out.println is used
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:46:	System.out.println is used
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:49:	Local variable 'bookslot' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:51:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:52:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:53:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:56:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:58:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:70:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:70:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:70:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:71:	System.out.println is used
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:75:	Local variable 'confirmbook' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:77:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:78:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:79:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:82:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:95:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:95:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:95:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:99:	Local variable 'cancellbook' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:101:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:103:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:104:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:107:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:120:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:120:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:123:	Local variable 'modifybooking' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:125:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:125:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:126:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:127:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:130:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:132:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:143:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:143:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:146:	Local variable 'declinebooking' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:148:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:148:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:149:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:150:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:153:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:155:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:166:	Avoid variables with short names like id
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:166:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:166:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:169:	Local variable 'declinebooking' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:171:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:171:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:172:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:173:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:176:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/BookTimeSlot.java:178:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:36:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/resources/ProviderResource.java:36:	headerCommentRequirement Required
+src/main/java/com/wavelabs/resources/ProviderResource.java:46:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:46:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/ProviderResource.java:48:	Local variable 'persistedprovider' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:51:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/ProviderResource.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:52:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/ProviderResource.java:53:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:56:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:58:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:69:	The String literal "Problem in server" appears 4 times in this file; the first occurrence is on line 69
+src/main/java/com/wavelabs/resources/ProviderResource.java:70:	Avoid variables with short names like id
+src/main/java/com/wavelabs/resources/ProviderResource.java:70:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:70:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/com/wavelabs/resources/ProviderResource.java:70:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/ProviderResource.java:71:	Parameter 'fromdate' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:72:	Parameter 'todate' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:73:	Parameter 'fromtime' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:74:	Parameter 'totime' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:75:	Parameter 'slotDuration' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:78:	Local variable 'parser' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:78:	When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/wavelabs/resources/ProviderResource.java:79:	Local variable 'fromDate' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:80:	Local variable 'toDate' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:81:	Local variable 'createslotlist' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:83:	Local variable 'slotlist' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:85:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/ProviderResource.java:85:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:87:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/ProviderResource.java:88:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:91:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:104:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/ProviderResource.java:105:	Avoid variables with short names like id
+src/main/java/com/wavelabs/resources/ProviderResource.java:105:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:108:	Local variable 'status' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:109:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:111:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/ProviderResource.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:112:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/ProviderResource.java:113:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:116:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:130:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/ProviderResource.java:132:	Local variable 'providerlist' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:135:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/ProviderResource.java:135:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:136:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/ProviderResource.java:137:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:140:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:142:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:147:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/resources/ProviderResource.java:174:	Avoid variables with short names like id
+src/main/java/com/wavelabs/resources/ProviderResource.java:174:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:174:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/ProviderResource.java:176:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/ProviderResource.java:176:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ProviderResource.java:177:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/ProviderResource.java:178:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:181:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/ProviderResource.java:183:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ReceiverResource.java:21:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/resources/ReceiverResource.java:21:	headerCommentRequirement Required
+src/main/java/com/wavelabs/resources/ReceiverResource.java:30:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/ReceiverResource.java:30:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/ReceiverResource.java:33:	Local variable 'addReceiver' could be declared final
+src/main/java/com/wavelabs/resources/ReceiverResource.java:36:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/ReceiverResource.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/ReceiverResource.java:37:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/ReceiverResource.java:38:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/ReceiverResource.java:41:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/ReceiverResource.java:43:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:25:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:25:	headerCommentRequirement Required
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:34:	Avoid variables with short names like id
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:34:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:34:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:36:	Local variable 'allTimeslots' could be declared final
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:39:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:41:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:42:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:45:	Local variable 'messages' could be declared final
+src/main/java/com/wavelabs/resources/TimeSlotResource.java:47:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/BookingService.java:13:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/service/BookingService.java:13:	headerCommentRequirement Required
+src/main/java/com/wavelabs/service/BookingService.java:14:	To avoid mistakes add a comment at the beginning of the session field if you want a default access modifier
+src/main/java/com/wavelabs/service/BookingService.java:14:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/BookingService.java:14:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/BookingService.java:15:	To avoid mistakes add a comment at the beginning of the bookingsdao field if you want a default access modifier
+src/main/java/com/wavelabs/service/BookingService.java:15:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/BookingService.java:15:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/BookingService.java:17:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'receiver_id' is not final.
+src/main/java/com/wavelabs/service/BookingService.java:17:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'timeslot_id' is not final.
+src/main/java/com/wavelabs/service/BookingService.java:17:	Parameter 'receiver_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/BookingService.java:17:	Parameter 'timeslot_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/BookingService.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/BookingService.java:20:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'receiver_id' is not final.
+src/main/java/com/wavelabs/service/BookingService.java:20:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'timeslot_id' is not final.
+src/main/java/com/wavelabs/service/BookingService.java:20:	Parameter 'receiver_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/BookingService.java:20:	Parameter 'timeslot_id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/BookingService.java:20:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/BookingService.java:24:	Parameter 'timeslotlist' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/BookingService.java:24:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/BookingService.java:27:	Parameter 'timeslot' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/BookingService.java:27:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/BookingService.java:30:	Parameter 'timeSlots' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/BookingService.java:30:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/BookingService.java:33:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/BookingService.java:33:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/service/CommunicationService.java:12:	headerCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:13:	To avoid mistakes add a comment at the beginning of the commdao field if you want a default access modifier
+src/main/java/com/wavelabs/service/CommunicationService.java:13:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/CommunicationService.java:13:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:14:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/service/CommunicationService.java:14:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/service/CommunicationService.java:14:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/CommunicationService.java:14:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:15:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/com/wavelabs/service/CommunicationService.java:15:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:16:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/com/wavelabs/service/CommunicationService.java:16:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:17:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/com/wavelabs/service/CommunicationService.java:17:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:18:	Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/com/wavelabs/service/CommunicationService.java:18:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:20:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:20:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:20:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:20:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:20:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:27:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:27:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:27:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:27:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:27:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:28:	Found 'DD'-anomaly for variable 'message' (lines '28'-'30').
+src/main/java/com/wavelabs/service/CommunicationService.java:28:	Found 'DD'-anomaly for variable 'message' (lines '28'-'34').
+src/main/java/com/wavelabs/service/CommunicationService.java:28:	Found 'DD'-anomaly for variable 'message' (lines '28'-'37').
+src/main/java/com/wavelabs/service/CommunicationService.java:28:	Found 'DD'-anomaly for variable 'message' (lines '28'-'40').
+src/main/java/com/wavelabs/service/CommunicationService.java:28:	Found 'DD'-anomaly for variable 'message' (lines '28'-'43').
+src/main/java/com/wavelabs/service/CommunicationService.java:29:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:31:	System.out.println is used
+src/main/java/com/wavelabs/service/CommunicationService.java:33:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:34:	Found 'DD'-anomaly for variable 'message' (lines '34'-'37').
+src/main/java/com/wavelabs/service/CommunicationService.java:34:	Found 'DD'-anomaly for variable 'message' (lines '34'-'40').
+src/main/java/com/wavelabs/service/CommunicationService.java:34:	Found 'DD'-anomaly for variable 'message' (lines '34'-'43').
+src/main/java/com/wavelabs/service/CommunicationService.java:36:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:37:	Found 'DD'-anomaly for variable 'message' (lines '37'-'40').
+src/main/java/com/wavelabs/service/CommunicationService.java:37:	Found 'DD'-anomaly for variable 'message' (lines '37'-'43').
+src/main/java/com/wavelabs/service/CommunicationService.java:39:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:40:	Found 'DD'-anomaly for variable 'message' (lines '40'-'43').
+src/main/java/com/wavelabs/service/CommunicationService.java:42:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:45:	Local variable 'phonenumber' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:46:	Local variable 'email' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:51:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/service/CommunicationService.java:56:	Parameter 'consultant' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:56:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:56:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:56:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:57:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:57:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/CommunicationService.java:57:	The String literal "Congratulations\nHi " appears 4 times in this file; the first occurrence is on line 57
+src/main/java/com/wavelabs/service/CommunicationService.java:57:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/com/wavelabs/service/CommunicationService.java:58:	The String literal "\nTimings: " appears 8 times in this file; the first occurrence is on line 58
+src/main/java/com/wavelabs/service/CommunicationService.java:60:	System.out.println is used
+src/main/java/com/wavelabs/service/CommunicationService.java:66:	Parameter 'consultant' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:66:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:66:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:66:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:67:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:67:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/CommunicationService.java:67:	The String literal "Sorry for this..\nHi " appears 4 times in this file; the first occurrence is on line 67
+src/main/java/com/wavelabs/service/CommunicationService.java:67:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/com/wavelabs/service/CommunicationService.java:69:	The String literal "\nPlease kindly book an another timeslots" appears 4 times in this file; the first occurrence is on line 69
+src/main/java/com/wavelabs/service/CommunicationService.java:70:	The String literal "done with failure message creation" appears 4 times in this file; the first occurrence is on line 70
+src/main/java/com/wavelabs/service/CommunicationService.java:74:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:74:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:74:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:74:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:75:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/CommunicationService.java:75:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/com/wavelabs/service/CommunicationService.java:82:	Parameter 'consultant' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:82:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:82:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:82:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:83:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/CommunicationService.java:83:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/com/wavelabs/service/CommunicationService.java:90:	Parameter 'email' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:90:	Parameter 'pName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:90:	Parameter 'phno' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:90:	Parameter 'rName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:90:	Parameter 'status' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:90:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:90:	Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/com/wavelabs/service/CommunicationService.java:90:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:91:	Found 'DD'-anomaly for variable 'message' (lines '91'-'100').
+src/main/java/com/wavelabs/service/CommunicationService.java:91:	Found 'DD'-anomaly for variable 'message' (lines '91'-'103').
+src/main/java/com/wavelabs/service/CommunicationService.java:91:	Found 'DD'-anomaly for variable 'message' (lines '91'-'106').
+src/main/java/com/wavelabs/service/CommunicationService.java:91:	Found 'DD'-anomaly for variable 'message' (lines '91'-'93').
+src/main/java/com/wavelabs/service/CommunicationService.java:91:	Found 'DD'-anomaly for variable 'message' (lines '91'-'97').
+src/main/java/com/wavelabs/service/CommunicationService.java:92:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:94:	System.out.println is used
+src/main/java/com/wavelabs/service/CommunicationService.java:96:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:97:	Found 'DD'-anomaly for variable 'message' (lines '97'-'100').
+src/main/java/com/wavelabs/service/CommunicationService.java:97:	Found 'DD'-anomaly for variable 'message' (lines '97'-'103').
+src/main/java/com/wavelabs/service/CommunicationService.java:97:	Found 'DD'-anomaly for variable 'message' (lines '97'-'106').
+src/main/java/com/wavelabs/service/CommunicationService.java:99:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:100:	Found 'DD'-anomaly for variable 'message' (lines '100'-'103').
+src/main/java/com/wavelabs/service/CommunicationService.java:100:	Found 'DD'-anomaly for variable 'message' (lines '100'-'106').
+src/main/java/com/wavelabs/service/CommunicationService.java:102:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:103:	Found 'DD'-anomaly for variable 'message' (lines '103'-'106').
+src/main/java/com/wavelabs/service/CommunicationService.java:105:	Potential violation of Law of Demeter (static property access)
+src/main/java/com/wavelabs/service/CommunicationService.java:108:	Local variable 'phonenumber' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:113:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/wavelabs/service/CommunicationService.java:118:	Found 'UR'-anomaly for variable 'msgdata' (lines '118'-'126').
+src/main/java/com/wavelabs/service/CommunicationService.java:118:	Parameter 'msglist' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:118:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:119:	Found 'DD'-anomaly for variable 'rName' (lines '119'-'127').
+src/main/java/com/wavelabs/service/CommunicationService.java:119:	Found 'DU'-anomaly for variable 'rName' (lines '119'-'141').
+src/main/java/com/wavelabs/service/CommunicationService.java:120:	Found 'DD'-anomaly for variable 'phno' (lines '120'-'128').
+src/main/java/com/wavelabs/service/CommunicationService.java:120:	Found 'DU'-anomaly for variable 'phno' (lines '120'-'141').
+src/main/java/com/wavelabs/service/CommunicationService.java:121:	Found 'DD'-anomaly for variable 'email' (lines '121'-'129').
+src/main/java/com/wavelabs/service/CommunicationService.java:121:	Found 'DU'-anomaly for variable 'email' (lines '121'-'141').
+src/main/java/com/wavelabs/service/CommunicationService.java:122:	Found 'DD'-anomaly for variable 'pName' (lines '122'-'130').
+src/main/java/com/wavelabs/service/CommunicationService.java:122:	Found 'DU'-anomaly for variable 'pName' (lines '122'-'141').
+src/main/java/com/wavelabs/service/CommunicationService.java:123:	Found 'DD'-anomaly for variable 'time' (lines '123'-'131').
+src/main/java/com/wavelabs/service/CommunicationService.java:123:	Found 'DU'-anomaly for variable 'time' (lines '123'-'141').
+src/main/java/com/wavelabs/service/CommunicationService.java:124:	Found 'DD'-anomaly for variable 'status' (lines '124'-'132').
+src/main/java/com/wavelabs/service/CommunicationService.java:124:	Found 'DU'-anomaly for variable 'status' (lines '124'-'141').
+src/main/java/com/wavelabs/service/CommunicationService.java:125:	Local variable 'msgdata' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:126:	Local variable 'msgMetaData' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:143:	Parameter 'pName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:143:	Parameter 'rName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:143:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:143:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:144:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:144:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/com/wavelabs/service/CommunicationService.java:146:	System.out.println is used
+src/main/java/com/wavelabs/service/CommunicationService.java:152:	Parameter 'pName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:152:	Parameter 'rName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:152:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:152:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:153:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:153:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/com/wavelabs/service/CommunicationService.java:160:	Parameter 'pName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:160:	Parameter 'rName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:160:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:160:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:161:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:161:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/com/wavelabs/service/CommunicationService.java:168:	Parameter 'pName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:168:	Parameter 'rName' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:168:	Parameter 'times' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:168:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/CommunicationService.java:169:	Local variable 'message' could be declared final
+src/main/java/com/wavelabs/service/CommunicationService.java:169:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/main/java/com/wavelabs/service/ProviderrService.java:15:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/service/ProviderrService.java:15:	headerCommentRequirement Required
+src/main/java/com/wavelabs/service/ProviderrService.java:16:	To avoid mistakes add a comment at the beginning of the providerdao field if you want a default access modifier
+src/main/java/com/wavelabs/service/ProviderrService.java:16:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/ProviderrService.java:16:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/ProviderrService.java:17:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/service/ProviderrService.java:17:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/service/ProviderrService.java:17:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/ProviderrService.java:17:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/ProviderrService.java:19:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/ProviderrService.java:30:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/ProviderrService.java:30:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:35:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/service/ProviderrService.java:46:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/ProviderrService.java:46:	Parameter 'fromdate' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:46:	Parameter 'fromtime' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:46:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:46:	Parameter 'todate' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:46:	Parameter 'totime' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:47:	Parameter 'slotduration' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:49:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:69:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/ProviderrService.java:69:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:70:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:80:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/ProviderrService.java:80:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:82:	Local variable 'list' could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/ProviderrService.java:83:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/ProviderrService.java:83:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/ProviderrService.java:92:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/ProviderrService.java:92:	Found 'UR'-anomaly for variable 'slot' (lines '92'-'97').
+src/main/java/com/wavelabs/service/ProviderrService.java:92:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:93:	Local variable 'timeslot' could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:95:	Found 'DD'-anomaly for variable 'slotdata' (lines '95'-'97').
+src/main/java/com/wavelabs/service/ProviderrService.java:96:	Local variable 'slot' could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:97:	Prefer StringBuffer over += for concatenating strings
+src/main/java/com/wavelabs/service/ProviderrService.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/ProviderrService.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/ProviderrService.java:104:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/ProviderrService.java:104:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ProviderrService.java:104:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/ReceiverService.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/service/ReceiverService.java:8:	headerCommentRequirement Required
+src/main/java/com/wavelabs/service/ReceiverService.java:9:	To avoid mistakes add a comment at the beginning of the consultantdao field if you want a default access modifier
+src/main/java/com/wavelabs/service/ReceiverService.java:9:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/ReceiverService.java:9:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/ReceiverService.java:10:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/service/ReceiverService.java:10:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/service/ReceiverService.java:10:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/ReceiverService.java:10:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/ReceiverService.java:12:	Parameter 'receiver' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ReceiverService.java:12:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/ReceiverService.java:17:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/ReceiverService.java:17:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/ReceiverService.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:19:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/service/SlotInfoService.java:19:	The class 'SlotInfoService' has a Cyclomatic Complexity of 3 (Highest = 13).
+src/main/java/com/wavelabs/service/SlotInfoService.java:19:	The class 'SlotInfoService' has a Standard Cyclomatic Complexity of 3 (Highest = 13).
+src/main/java/com/wavelabs/service/SlotInfoService.java:19:	headerCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:20:	To avoid mistakes add a comment at the beginning of the slotinfodao field if you want a default access modifier
+src/main/java/com/wavelabs/service/SlotInfoService.java:20:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/SlotInfoService.java:20:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:21:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/service/SlotInfoService.java:21:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/service/SlotInfoService.java:21:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/SlotInfoService.java:21:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:23:	Parameter 'fromdate' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:23:	Parameter 'fromtime' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:23:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:23:	Parameter 'todate' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:23:	Parameter 'totime' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:23:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:24:	Parameter 'slotDuration' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:26:	Local variable 'slotinfo' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:41:	Parameter 'endDate' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:41:	Parameter 'startDate' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:43:	Local variable 'dates' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:44:	Local variable 'calendar' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:46:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/SlotInfoService.java:47:	Local variable 'result' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:67:	Parameter 'month' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:67:	The method 'getMonthNumber' has a Cyclomatic Complexity of 13.
+src/main/java/com/wavelabs/service/SlotInfoService.java:67:	The method 'getMonthNumber' has a Standard Cyclomatic Complexity of 13.
+src/main/java/com/wavelabs/service/SlotInfoService.java:67:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:68:	Found 'DU'-anomaly for variable 'value' (lines '68'-'96').
+src/main/java/com/wavelabs/service/SlotInfoService.java:68:	Local variable 'value' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:69:	Switch statements should have a default label
+src/main/java/com/wavelabs/service/SlotInfoService.java:71:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:73:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:75:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:77:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:79:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:81:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:83:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:85:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:87:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:89:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:91:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:93:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:98:	Parameter 'month' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:98:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:99:	System.out.println is used
+src/main/java/com/wavelabs/service/SlotInfoService.java:100:	Local variable 'calendar' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/SlotInfoService.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/SlotInfoService.java:102:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/SlotInfoService.java:103:	Local variable 'date' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:103:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/SlotInfoService.java:104:	Local variable 'DATE_FORMAT' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:104:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'DATE_FORMAT' is not final.
+src/main/java/com/wavelabs/service/SlotInfoService.java:104:	Variables should start with a lowercase character, 'DATE_FORMAT' starts with uppercase character.
+src/main/java/com/wavelabs/service/SlotInfoService.java:104:	When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/wavelabs/service/SlotInfoService.java:106:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:113:	Parameter 'month' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:113:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:114:	System.out.println is used
+src/main/java/com/wavelabs/service/SlotInfoService.java:115:	Local variable 'calendar' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/SlotInfoService.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/SlotInfoService.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/SlotInfoService.java:118:	Local variable 'date' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/wavelabs/service/SlotInfoService.java:119:	Local variable 'DATE_FORMAT' could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:119:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'DATE_FORMAT' is not final.
+src/main/java/com/wavelabs/service/SlotInfoService.java:119:	Variables should start with a lowercase character, 'DATE_FORMAT' starts with uppercase character.
+src/main/java/com/wavelabs/service/SlotInfoService.java:119:	When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/com/wavelabs/service/SlotInfoService.java:121:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/wavelabs/service/SlotInfoService.java:127:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SlotInfoService.java:127:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/SlotInfoService.java:128:	System.out.println is used
+src/main/java/com/wavelabs/service/SlotInfoService.java:129:	System.out.println is used
+src/main/java/com/wavelabs/service/SwaggerConfiguration.java:14:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/service/SwaggerConfiguration.java:20:	Parameter 'config' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/SwaggerConfiguration.java:20:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/SwaggerConfiguration.java:22:	Local variable 'beanConfig' could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:16:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/service/TimeSlotService.java:16:	headerCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:17:	To avoid mistakes add a comment at the beginning of the timeslotdao field if you want a default access modifier
+src/main/java/com/wavelabs/service/TimeSlotService.java:17:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/TimeSlotService.java:17:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:18:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/wavelabs/service/TimeSlotService.java:18:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/wavelabs/service/TimeSlotService.java:18:	Use explicit scoping instead of the default package private level
+src/main/java/com/wavelabs/service/TimeSlotService.java:18:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:26:	Parameter 'slotinfo' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:26:	Parameter 'timings' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:31:	Avoid reassigning parameters such as 'startTime'
+src/main/java/com/wavelabs/service/TimeSlotService.java:31:	Parameter 'endTime' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:31:	Parameter 'slotDuration' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:31:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:33:	Found 'DU'-anomaly for variable 'slotinMilli' (lines '33'-'41').
+src/main/java/com/wavelabs/service/TimeSlotService.java:33:	Local variable 'slotinMilli' could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:34:	Found 'DD'-anomaly for variable 'count' (lines '34'-'37').
+src/main/java/com/wavelabs/service/TimeSlotService.java:36:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/service/TimeSlotService.java:37:	Found 'DD'-anomaly for variable 'count' (lines '37'-'37').
+src/main/java/com/wavelabs/service/TimeSlotService.java:39:	There is log block not surrounded by if
+src/main/java/com/wavelabs/service/TimeSlotService.java:43:	Comment is too large: Too many lines
+src/main/java/com/wavelabs/service/TimeSlotService.java:53:	Avoid reassigning parameters such as 'startTime'
+src/main/java/com/wavelabs/service/TimeSlotService.java:53:	Parameter 'endTime' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:53:	Parameter 'slotDuration' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:55:	Local variable 'timeslotList' could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:56:	Local variable 'noOfslots' could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:57:	System.out.println is used
+src/main/java/com/wavelabs/service/TimeSlotService.java:58:	Found 'DU'-anomaly for variable 'durationtime' (lines '58'-'70').
+src/main/java/com/wavelabs/service/TimeSlotService.java:58:	Local variable 'durationtime' could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:59:	Found 'DU'-anomaly for variable 'count' (lines '59'-'70').
+src/main/java/com/wavelabs/service/TimeSlotService.java:63:	Avoid instantiating new objects inside loops
+src/main/java/com/wavelabs/service/TimeSlotService.java:65:	Found 'DU'-anomaly for variable 'count' (lines '65'-'70').
+src/main/java/com/wavelabs/service/TimeSlotService.java:78:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/TimeSlotService.java:78:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:108:	Parameter 'slotid' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:119:	Parameter 'slotid' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:132:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:132:	Parameter 'receiverid' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:153:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/service/TimeSlotService.java:153:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:164:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/service/TimeSlotService.java:164:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:169:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:169:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:170:	Local variable 'stringids' could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:171:	Found 'DD'-anomaly for variable 'intids' (lines '171'-'173').
+src/main/java/com/wavelabs/service/TimeSlotService.java:173:	Found 'DD'-anomaly for variable 'intids' (lines '173'-'173').
+src/main/java/com/wavelabs/service/TimeSlotService.java:173:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/wavelabs/service/TimeSlotService.java:178:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/TimeSlotService.java:178:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:178:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:182:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/wavelabs/service/TimeSlotService.java:182:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:182:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:186:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:186:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:190:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/TimeSlotService.java:190:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:190:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:194:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:194:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:197:	Parameter 'provider' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:197:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:201:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:201:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:205:	Parameter 'ids' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:205:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:209:	Avoid variables with short names like id
+src/main/java/com/wavelabs/service/TimeSlotService.java:209:	Parameter 'id' is not assigned and could be declared final
+src/main/java/com/wavelabs/service/TimeSlotService.java:209:	publicMethodCommentRequirement Required
+src/main/java/com/wavelabs/service/TimeSlotService.java:210:	Local variable 'provider' could be declared final
+src/main/java/com/wavelabs/solr/DynamicCalendarBooking/MyResource.java:1:	Package name contains upper case characters
+src/main/java/com/wavelabs/solr/DynamicCalendarBooking/MyResource.java:12:	Each class should declare at least one constructor
+src/main/java/com/wavelabs/util/SessionUtil.java:14:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/wavelabs/util/SessionUtil.java:16:	Avoid using redundant field initializer for 'cfg'
+src/main/java/com/wavelabs/util/SessionUtil.java:16:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/util/SessionUtil.java:17:	Avoid using redundant field initializer for 'factory'
+src/main/java/com/wavelabs/util/SessionUtil.java:17:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/util/SessionUtil.java:18:	Avoid using redundant field initializer for 'session'
+src/main/java/com/wavelabs/util/SessionUtil.java:18:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/util/SessionUtil.java:19:	Avoid using redundant field initializer for 'count'
+src/main/java/com/wavelabs/util/SessionUtil.java:19:	fieldCommentRequirement Required
+src/main/java/com/wavelabs/util/SessionUtil.java:29:	Avoid using if statements without curly braces

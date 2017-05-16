@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.wavelabs.model.SlotInfo" table="slotinfo"
+		dynamic-update="true">
+		<id name="id" column="id" type="int">
+			<generator class="increment"></generator>
+		</id>
+		<property name="date" column="date" type="date"></property>
+		<property name="from_time" column="from_time" type="time"></property>
+		<property name="to_time" column="to_time" type="time"></property>
+		<many-to-one name="provider" column="provider_id" cascade="save-update"
+			class="com.wavelabs.model.Provider"></many-to-one>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$.ajax({
+			type : "GET",
+			url : "http://localhost:8080/CalendarBooking/webapi/spec/all",
+			contentType : "application/json",
+			dataType : "json",
+			success : function(response) {
+				$("h1").html(response);				
+			}
+		});
+	});
+</script>
+</head>
+<body>
+<h1 id="jsondata">tharun</h1>
+	<!-- <div>
+		<select id="ddl">
+			<option>Select</option>
+		</select>
+	</div> -->
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("button").click(function() {
+			var name=$("#name").val();
+			var phno=$("#phone_number").val();
+			var email=$("#email").val();
+			var address=$("#add").val();
+			var pwd=$("#password").val();
+			var jsondata='{"address": "'+address+'","email": "'+email+'","name": "'+name+'","password": "'+pwd+'","phone_number":"'+phno+'"}';
+			$.ajax({
+				type : "POST",
+				url : "http://localhost:8080/CalendarBooking/webapi/consultant/persist",
+				contentType:"application/json",
+				dataType:"json",
+				data : jsondata,
+				success : function(response) {
+					$("#headed").html(jsondata);	
+					alert("Inserted successfully");
+				}
+			});
+		});
+	});
+</script>
+</head>
+<body>
+	Name:
+	<input type="text" name="name" id="name">
+	<br> Phonenumber:
+	<input type="text" name="phonenumber" id="phone_number">
+	<br> Email-id:
+	<input type="text" name="email" id="email">
+	<br> Address
+	<input type="text" name="add" id="add">
+	<br> Password:
+	<input type="password" name="passowrd" id="password">
+	<button>submit</button>
+	<h1 id="headed"></h1>
+</body>
+</html>

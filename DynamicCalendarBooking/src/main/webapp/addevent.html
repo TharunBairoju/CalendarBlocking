@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var url = 'https://www.googleapis.com/calendar/v3/calendars/[MY_CALENDAR_ID]/events?sendNotifications=false&access_token=[GOOGLE_API_TOKEN]';
+		var data = {
+			end : {
+				dateTime : "2017-07-22T11:30:00-07:00"
+			},
+			start : {
+				dateTime : "2017-07-22T11:00:00-07:00"
+			},
+			summary : "New Calendar Event from API"
+		};
+
+		function addevent() {
+			var ajax = $.ajax({
+				url : url,
+				contentType : "application/json",
+				data : JSON.stringify(data),
+				method : 'POST'
+			}).done(addEventDone).fail(function(jqHXR, textStatus) {
+				console.log("addEvent(): ajax failed = " + jqHXR.responseText);
+				console.log(jqHXR);
+			});
+
+		}
+	</script>
+	<a target="_blank"
+		href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=cXVtcWxsbGI4aGx1ZDI4M3JrcmFncGhoNzRfMjAxNzA0MjdUMDEzMDAwWiB0aGFydW4uaXQwNUBt&amp;tmsrc=tharun.it05%40gmail.com"><img
+		border="0"
+		src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+</body>
+</html>
